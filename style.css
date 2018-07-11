@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:700&subset=latin-ext');
 
-@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+@import url('https://fonts.googleapis.com/css?family=Galindo');
 
 .jumbotron {
     background-color: #ffffff;
@@ -33,7 +33,7 @@ a.btn-green:hover {
     color: purple;
 }
 
-ul.navbar-nav {
+/* ul.navbar-nav {
     margin-right: 50px;
 }
 
@@ -43,7 +43,7 @@ nav.navbar a.navbar-brand {
 }
 
 nav.navbar a.navbar-brand {
-    /* margin-right: 100px; */
+    /* margin-right: 100px;
 }
 
  ul.navbar-nav li {
@@ -80,4 +80,31 @@ nav.navbar a.dropdown-toggle:hover {
 
 .dropdown-menu a.dropdown-font {
     color: white;
+} */
+
+/*  navbar */
+.fizu {
+  font-family: 'Galindo', cursive;
+  font-size: 3rem;
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: #343a40 ;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-size: 1.2rem;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: purple;
+}
+
+.dropdown-item {
+  color: white;
+}
+.dropdown-item:hover {
+  color: white;
+  background-color: purple;
 }
