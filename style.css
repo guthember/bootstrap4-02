@@ -104,6 +104,7 @@ nav.navbar a.dropdown-toggle:hover {
 .dropdown-item {
   color: white;
 }
+
 .dropdown-item:hover {
   color: white;
   background-color: purple;
