@@ -177,3 +177,20 @@ footer a:hover {
 .blog-card:hover {
   box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 8px 20px 0 rgba(0,0,0,0.23);
 }
+
+/*  cikkoldal */
+.btn-facebook {
+  background: #3b5998;
+  border-radius: 3;
+  color: white;
+  border-style: solid;
+  border-color: #263961;
+}
+
+.btn-facebook:link, .btn-facebook:visited {
+  color: white;
+}
+
+.btn-facebook:active, .btn-facebook:hover {
+  background: #263961;
+}
