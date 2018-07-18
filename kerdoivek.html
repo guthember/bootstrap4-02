@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Fizu.hu | Kérdőívek </title>
+</head>
+
+<body>
+  <!-- New Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand fizu" href="#">fizu.hu</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Főoldal <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="kedvenc-stat.html">Kedvenc statisztikáink</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="kerdoivek.html">Kérdőívek</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="rolunk.html">Rólunk</a>
+        </li>
+        <li class="nav-item dropdown ml-3 mr-5">
+          <a class="nav-link dropdown-toggle mr-5" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Profil
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Profilom</a>
+            <a class="dropdown-item" href="#">Fizu térkép</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Kijelentkezés</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- New Navbar end -->
+
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1>Mennyit keresnék, ha...?</h1>
+      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      <a class="btn btn-green btn-lg" href="#" role="button">Tovább a kérdőívekre!</a>
+    </div>
+  </div>
+  <!-- Jumbotron vége -->
+
+  <!-- kerdoivek -->
+  <div class="container py-5">
+
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Rövid kérdőív</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Hosszú kérdőív</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <!-- első tab -->
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <div class="row py-5 mx-4">
+          <!-- neme -->
+          <div class="col-12 col-md-7 py-md-3">
+            <p>Neme</p>
+          </div>
+
+          <div class="col-12 col-md-5 py-md-3 mb-3">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="ferfi" value="ferfi">
+              <label class="form-check-label" for="ferfi">Férfi</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="no" value="no" checked>
+              <label class="form-check-label" for="inlineRadio2">Nő</label>
+            </div>
+          </div>
+          <!-- end neme -->
+
+          <!-- hány éves -->
+          <div class="col-12 col-md-7 py-md-3">
+            <p>Hány éves?</p>
+          </div>
+
+          <div class="col-12 col-md-5 py-md-3 mb-3">
+            <select class="custom-select">
+              <option selected>Válassz...</option>
+              <option value="1">17</option>
+              <option value="2">18</option>
+              <option value="3">19</option>
+              <option value="4">20</option>
+              <option value="5">21</option>
+            </select>
+          </div>
+          <!-- end hány éves -->
+          <!-- melyik megye -->
+          <div class="col-12 col-md-7 py-md-3">
+            <p>Melyik megyében végzi a munkáját?</p>
+          </div>
+
+          <div class="col-12 col-md-5 py-md-3 mb-3">
+            <select class="custom-select">
+              <option selected>Válassz...</option>
+              <option value="1">17</option>
+              <option value="2">18</option>
+              <option value="3">19</option>
+              <option value="4">20</option>
+              <option value="5">21</option>
+            </select>
+          </div>
+          <!-- end melyik megye -->
+
+          <!-- melyik település -->
+          <div class="col-12 col-md-7 py-md-3">
+            <p>Melyik településen végzi a munkáját?</p>
+          </div>
+
+          <div class="col-12 col-md-5 py-md-3 mb-3">
+            <select class="custom-select">
+              <option selected>Válassz...</option>
+              <option value="1">17</option>
+              <option value="2">18</option>
+              <option value="3">19</option>
+              <option value="4">20</option>
+              <option value="5">21</option>
+            </select>
+          </div>
+          <!-- end melyik település -->
+
+          <!-- havi kereset -->
+          <div class="col-12 col-md-7 py-md-3">
+            <p>Mennyi a havi keresete?</p>
+          </div>
+
+          <div class="col-12 col-md-5 py-md-3 mb-3">
+            <div class="form-row">
+              <div class="col-md-6">
+                 <input type="number" class="form-control" id="validationDefault03" placeholder="Havi keresete" required>
+              </div>
+            </div>
+          </div>
+          <!-- end havi kereset -->
+
+          <!-- melyik település -->
+          <div class="col-12 col-md-7 py-md-3">
+            <p>Melyik településen végzi a munkáját?</p>
+          </div>
+
+          <div class="col-12 col-md-5 py-md-3 mb-3">
+            <select class="custom-select">
+              <option selected>Válassz...</option>
+              <option value="1">17</option>
+              <option value="2">18</option>
+              <option value="3">19</option>
+              <option value="4">20</option>
+              <option value="5">21</option>
+            </select>
+          </div>
+          <!-- end melyik település -->
+
+          <!-- melyik település -->
+          <div class="col-12 col-md-7 py-md-3">
+            <p>Melyik településen végzi a munkáját?</p>
+          </div>
+
+          <div class="col-12 col-md-5 py-md-3 mb-3">
+            <select class="custom-select">
+              <option selected>Válassz...</option>
+              <option value="1">17</option>
+              <option value="2">18</option>
+              <option value="3">19</option>
+              <option value="4">20</option>
+              <option value="5">21</option>
+            </select>
+          </div>
+          <!-- end melyik település -->
+
+          <!-- melyik település -->
+          <div class="col-12 col-md-7 py-md-3">
+            <p>Melyik településen végzi a munkáját?</p>
+          </div>
+
+          <div class="col-12 col-md-5 py-md-3 mb-3">
+            <select class="custom-select">
+              <option selected>Válassz...</option>
+              <option value="1">17</option>
+              <option value="2">18</option>
+              <option value="3">19</option>
+              <option value="4">20</option>
+              <option value="5">21</option>
+            </select>
+          </div>
+          <!-- end melyik település -->
+
+          <!-- melyik település -->
+          <div class="col-12 col-md-7 py-md-3">
+            <p>Melyik településen végzi a munkáját?</p>
+          </div>
+
+          <div class="col-12 col-md-5 py-md-3 mb-3">
+            <select class="custom-select">
+              <option selected>Válassz...</option>
+              <option value="1">17</option>
+              <option value="2">18</option>
+              <option value="3">19</option>
+              <option value="4">20</option>
+              <option value="5">21</option>
+            </select>
+          </div>
+          <!-- end melyik település -->
+
+          <div class="col text-center">
+            <button type="button" class="btn btn-outline-success">Elküldöm</button>
+          </div>
+
+        </div>
+      </div>
+      <!-- end első tab -->
+
+      <!--  második tab -->
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        <div class="row py-5 mx-4">
+          <!-- neme -->
+          <div class="col-12 col-md-7 py-md-3">
+            <p>Neme</p>
+          </div>
+
+          <div class="col-12 col-md-5 py-md-3 mb-3">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="ferfi1" value="ferfi1">
+              <label class="form-check-label" for="ferfi1">Férfi</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="no1" value="no1" checked>
+              <label class="form-check-label" for="no1">Nő</label>
+            </div>
+          </div>
+          <!-- end neme -->
+          <!-- neme -->
+          <div class="col-12 col-md-7 py-md-3">
+            <p>Neme</p>
+          </div>
+
+          <div class="col-12 col-md-5 py-md-3 mb-3">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="ferfi2" value="ferfi2">
+              <label class="form-check-label" for="ferfi2">Férfi</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="no2" value="no2" checked>
+              <label class="form-check-label" for="no2">Nő</label>
+            </div>
+          </div>
+          <!-- end neme -->
+          <!-- neme -->
+          <div class="col-12 col-md-7 py-md-3">
+            <p>Neme</p>
+          </div>
+
+          <div class="col-12 col-md-5 py-md-3 mb-3">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="ferfi3" value="ferfi3">
+              <label class="form-check-label" for="ferfi3">Férfi</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="no3" value="no3" checked>
+              <label class="form-check-label" for="no3">Nő</label>
+            </div>
+          </div>
+          <!-- end neme -->
+          <!-- neme -->
+          <div class="col-12 col-md-7 py-md-3">
+            <p>Neme</p>
+          </div>
+
+          <div class="col-12 col-md-5 py-md-3 mb-3">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="ferfi4" value="ferfi4">
+              <label class="form-check-label" for="ferfi4">Férfi</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="no4" value="no4" checked>
+              <label class="form-check-label" for="no4">Nő</label>
+            </div>
+          </div>
+          <!-- end neme -->
+          <!-- neme -->
+          <div class="col-12 col-md-7 py-md-3">
+            <p>Neme</p>
+          </div>
+
+          <div class="col-12 col-md-5 py-md-3 mb-3">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions5" id="ferfi5" value="ferfi5">
+              <label class="form-check-label" for="ferfi5">Férfi</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions5" id="no5" value="no5" checked>
+              <label class="form-check-label" for="no5">Nő</label>
+            </div>
+          </div>
+          <!-- end neme -->
+
+          <div class="col text-center">
+            <button type="button" class="btn btn-outline-success">Elküldöm</button>
+          </div>
+      </div>
+      <!--  end második tab -->
+    </div>
+
+  </div>
+  <!-- end kerdoivek -->
+
+
+  <!-- footer -->
+  <footer class="bg-dark text-light pt-5">
+    <div class="container text-center">
+      <div class="row py-4">
+        <div class="col-12 col-lg-4 my-auto">
+          <a class="fizu" href="index.html">fizu.hu</a>
+        </div>
+        <div class="col-12 col-lg-4">
+          <ul class="list-unstyled">
+            <li class="py-2"><a href="">Hírlevél-feliratkozás</a></li>
+            <li class="py-2"><a href="index.html">Főoldal</a></li>
+            <li class="py-2"><a href="kedvenc-stat.html">Kedvenc statisztikáink</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-4">
+          <ul class="list-unstyled">
+            <li class="py-2"><a href="">Kérdőív</a></li>
+            <li class="py-2"><a href="rolunk.html">Rólunk</a></li>
+            <li class="py-2"><a href="">Fizu-térkép</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- horizontal line -->
+    <div class="container-fluid">
+      <h1 class="line">BARÁTKOZZUNK</h1>
+      <div class="text-center">
+        <a class="px-2" href="https://facebook.com"><img src="img/facebook.svg" alt="" height="40px"></a>
+        <a class="px-2" href="https://twitter.com"><img src="img/google.svg" alt="" height="50px"></a>
+        <a class="px-2" href="https://instagram.com"><img src="img/twitter.svg" alt="" height="40px"></a>
+        <a class="px-2" href="https://pinterest.com"><img src="img/viber.svg" alt="" height="40px"></a>
+      </div>
+
+      <div class="container text-center">
+        <div class="row pt-4">
+          <div class="col-12 text-center">
+            <p>fizu.hu 2018-</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end horizontal line -->
+
+  </footer>
+  <!-- end footer -->
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

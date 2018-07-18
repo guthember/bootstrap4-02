@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Galindo');
 
+@media (min-width: 1200px) {
+  html {
+    font-size: 18px;
+  }
+}
+
 .jumbotron {
     background-color: #ffffff;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' %3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%2380F'/%3E%3Cstop offset='1' stop-color='%23f40'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpattern id='b' width='65' height='65' patternUnits='userSpaceOnUse'%3E%3Ccircle fill='%23ffffff' cx='32.5' cy='32.5' r='32.5'/%3E%3C/pattern%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23b)' fill-opacity='0.1'/%3E%3C/svg%3E");
@@ -193,4 +199,116 @@ footer a:hover {
 
 .btn-facebook:active, .btn-facebook:hover {
   background: #263961;
+}
+
+/* bejelentkezés oldal */
+
+.bejelentkezes {
+  background-image: url("img/login-bg.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  overflow: hidden;
+}
+
+.login-card {
+  background-color: rgba(42, 47, 51, 0.8);
+  color: white;
+}
+
+.login-card-header {
+  background-color: rgba(42, 47, 51, 0.8);
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #eff0f7;
+}
+
+.login-card a {
+  color: #eff0f7;
+}
+
+.login-card .form-control {
+  background-color: rgba(42, 47, 51, 0.7);
+  border-color: transparent;
+}
+
+.login-card .form-control:focus {
+  background-color: rgba(42, 47, 51, 0.5);
+  border-color: #3384aa;
+  outline: none;
+  box-shadow: none;
+    color: #eff0f7;
+}
+
+.login-card .form-control::placeholder {
+  color: #d6d7de;
+  opacity: .8;
+}
+
+.login-btn {
+  color: white;
+}
+
+.login-btn-facebook {
+  background-image: linear-gradient(#4c69ba, #3b55a0);
+  text-shadow: 0 -1px 0 #354c8c;
+}
+
+.login-btn-facebook:hover,
+.login-btn-facebook:focus {
+  background-image: linear-gradient(#5b7bd5, #4864b1);
+}
+
+.login-btn-google {
+  background-image: linear-gradient(#dd4b39, #a7372b);
+  text-shadow: 0 -1px 0 #354c8c;
+}
+
+.login-btn-google:hover,
+.login-btn-google:focus {
+  background-image: linear-gradient(#e74b37, #cd4435);
+}
+
+.btn-footer-login {
+  background-color: #298e62;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.btn-footer-login:hover {
+  background-color: #2d9b6b;
+}
+
+/* error page */
+.error-background {
+  background-image: linear-gradient(rgba(43, 45, 66, 0.4), rgba(43, 45, 66, 0.6) ), url("img/error-page.jpeg") ;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.content {
+  padding-top: 118px;
+  color: #cdd4de;
+}
+
+.content h1 {
+  font-weight: 900;
+  font-size: 8.5rem;
+  opacity: 0.6;
+}
+
+.content h2 {
+  font-weight: 600;
+  font-size: 2.2rem;
+  opacity: 0.9;
+}
+
+@media ( min-width: 1200px ) {
+  html {
+    font-size: 18px;
+  }
 }
